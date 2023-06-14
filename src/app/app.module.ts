@@ -14,6 +14,7 @@ import { AssignTasksAdminComponent } from './assign-tasks-admin/assign-tasks-adm
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
 import { MaterialModule } from './material/material.module';
+import { ButtonsComponent } from './buttons/buttons.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { MaterialModule } from './material/material.module';
     AdminDashboardComponent,
     UserDashboardComponent,
     AssignTasksAdminComponent,
-    NavComponent
+    NavComponent,
+    ButtonsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,10 @@
+<app-nav></app-nav>
+<app-buttons></app-buttons>
+<!-- container is reffer to to do list -->
+<h1>Assign tasks</h1>
 <div class="container">
     <input type="text" class="input-text" placeholder="Type a task" [(ngModel)]="todoValue" (keyup.enter)="addItem()" />
     <button class="add-btn" (click)="addItem()">Add</button>
-
     <div class="list">
         <ul>
             <li *ngFor="let item of myTaskList">
@@ -13,19 +16,5 @@
         </ul>
     </div>
     <div class="container">
-        <input matInput
-
-        <!-- <input matInput [matDatepicker]="picker">
-        <mat-card>MM/DD/YYYY</mat-card>
-        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-        <mat-datepicker #picker></mat-datepicker> -->
-        <!-- <ul>
-            <li *ngFor="let item of myTaskList">
-                <input type="text" name="isDone" [(ngModel)]="item.isDone" />
-                 {{ item.value }} -->
-                <!-- <button class="btn" (click)="deleteItem(item.id)">Delete</button>
-            </li>
-        </ul>  -->
     </div>
-    
 </div>

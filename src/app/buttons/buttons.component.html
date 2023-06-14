@@ -1,0 +1,9 @@
+<div class="button-container">
+    <button [ngClass]="{'active': selectedButton === 1}" (click)="selectButton(1)" style="position: 200px;">
+        Assign Tasks
+    </button>
+    <button  [ngClass]="{'active': selectedButton === 2}" (click)="selectButton(2)">
+        View Tasks
+    </button>
+  </div>
+  

@@ -26,7 +26,7 @@
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #7313cb;
+    background: #25ab75;
     margin: 20px;
     padding: 10px;
     border-radius: 0.4rem;
@@ -59,8 +59,18 @@
   }
   
   .container {
-    color: #fff;
+    color: #141414;
     max-width: 500px;
-    margin: auto;
+    /* margin: auto; */
+    margin-left: 40%;
+    margin-top: 5%;
+  }
+  h1
+  {
+    font-size: 45px;
+    margin-top: 5%;
+    margin-left: 100px;
+    color: #25ab75;
+    font-weight: bold;
   }
   
