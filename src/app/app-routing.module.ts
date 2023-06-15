@@ -6,12 +6,13 @@ import { AdminDashboardComponent } from './component/admin-dashboard/admin-dashb
 import { UserDashboardComponent } from './component/user-dashboard/user-dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { NavComponent } from './nav/nav.component';
-import { SignupComponent } from './signup/signup.component';
 import { MyFormComponent } from './my-form/my-form.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 const routes: Routes = [
   {path:'',component:LoginComponent},
+  {path:'login',component:LoginComponent},
   {path:'signup',component: SignupComponent},
   {path:'user', component: UserDashboardComponent},
   {path:'admin', component: AdminDashboardComponent},

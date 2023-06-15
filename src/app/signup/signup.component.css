@@ -1,0 +1,23 @@
+section
+{
+    background-image: url("https://png.pngtree.com/background/20220714/original/pngtree-aesthetically-cute-green-background-with-small-plants-on-the-side-picture-image_1606427.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+img
+{
+    height: 600px;
+    width: fit-content;
+    margin-top: -70px;
+
+}
+button
+{
+    background-color: #25ab75;
+    
+}
+button:hover
+{
+    background-color: grey;
+}

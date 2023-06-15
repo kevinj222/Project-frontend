@@ -1,61 +1,42 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  justify-content: right;
-  display: flex;
-  height: 60vh;
-  margin-right: -300px;
-  margin-top: 60px;
-  background-image: url(https://www.pixelstalk.net/wp-content/uploads/images5/Original-Pastel-Green-Aesthetic-Wallpaper.jpg);
-  background-position: fixed;
+.logo-img {
+    width: 40px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .logo-title {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+  }
+section
+{
+  background-image: url("https://media.istockphoto.com/id/1314054062/vector/abstract-simply-background-with-natural-line-arts.jpg?s=170667a&w=0&k=20&c=D3pJJF0m_yDRMtTGWAo7NBEu-k-GRWMCUWCuQt_PFiE=");
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
-img
+button
 {
-    margin-left: 80px;
-
+  background-color: #25ab75;
+  border-color: black;
 }
-
-
-.container {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.container h2 {
-  text-align: center;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.form-group input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-.form-group button {
-  width: 100%;
-  padding: 10px;
-  background-color: #4CAF50;
-  border: none;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 3px;
-  cursor: pointer;
+button:hover
+{
+  background-color: gray;
 }
