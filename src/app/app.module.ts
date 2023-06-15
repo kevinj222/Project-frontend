@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
 import { MaterialModule } from './material/material.module';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { MyFormComponent } from './my-form/my-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { ButtonsComponent } from './buttons/buttons.component';
     UserDashboardComponent,
     AssignTasksAdminComponent,
     NavComponent,
-    ButtonsComponent
+    ButtonsComponent,
+    MyFormComponent
   ],
   imports: [
     BrowserModule,

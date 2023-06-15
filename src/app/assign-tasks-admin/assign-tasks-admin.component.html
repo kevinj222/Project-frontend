@@ -2,7 +2,19 @@
 <app-buttons></app-buttons>
 <!-- container is reffer to to do list -->
 <h1>Assign tasks</h1>
-<div class="container">
+    <div class="form"><app-my-form></app-my-form></div>
+    <div class="result-box">
+        Name: {{ result }}<!-- sEARCH BUTTON RESULT TO BE DISPLAYED HERE HTML -->
+      </div> 
+      <div class="deadline">
+        <!-- <form (ngSubmit)="submitForm()"> -->
+            <form>
+                <input type="text" placeholder="Enter your value" name="fieldInput" >
+            <!-- <input type="text" placeholder="Enter your value" [(ngModel)]="fieldValue" name="fieldInput" required> -->
+            <button type="submit">Search</button>
+          </form>
+      </div>   
+    <div class="container">
     <input type="text" class="input-text" placeholder="Type a task" [(ngModel)]="todoValue" (keyup.enter)="addItem()" />
     <button class="add-btn" (click)="addItem()">Add</button>
     <div class="list">
@@ -15,6 +27,21 @@
             </li>
         </ul>
     </div>
-    <div class="container">
+    <div>
     </div>
+    
 </div>
+<div class="button-container" >
+    <button id="submit" [ngClass]="{'active': selectedButton === 1}" (click)="selectButton(1)" style="position: 200px;">
+        Assign Tasks
+    </button>
+</div>
+<!-- <mat-form-field appearance="fill" >
+    <mat-label>Fill form field</mat-label>
+    <input matInput placeholder="Enter userID number">
+    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    <mat-hint>Hint</mat-hint>
+  </mat-form-field>
+
+   -->
+

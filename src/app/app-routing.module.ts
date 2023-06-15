@@ -7,6 +7,8 @@ import { UserDashboardComponent } from './component/user-dashboard/user-dashboar
 import { LoginComponent } from './login/login.component';
 import { NavComponent } from './nav/nav.component';
 import { SignupComponent } from './signup/signup.component';
+import { MyFormComponent } from './my-form/my-form.component';
+
 
 const routes: Routes = [
   {path:'',component:LoginComponent},
@@ -15,7 +17,8 @@ const routes: Routes = [
   {path:'admin', component: AdminDashboardComponent},
   {path:'assign',component:AssignTasksAdminComponent},
   {path:'nav',component :NavComponent},
-  {path:'adminbuttons',component :ButtonsComponent}
+  {path:'adminbuttons',component :ButtonsComponent},
+  {path:'form',component:MyFormComponent}
 ];
 
 @NgModule({

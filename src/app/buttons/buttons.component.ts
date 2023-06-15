@@ -9,7 +9,8 @@ export class ButtonsComponent
 {
   selectedButton: number = 0;
 
-  selectButton(buttonNumber: number): void {
+  selectButton(buttonNumber: number): void 
+  {
     this.selectedButton = buttonNumber;
   }
 }
